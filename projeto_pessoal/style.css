@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'chakra petch', sans-serif;
+    border: none;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    height: 10vh;
+    padding: 0 40px;
+    background-color: #8f32c2;
+}
+
+.cabecalho_pesquisa {
+    height: 35px;
+    width: 200px;
+    border: 3px solid #312D33;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+    background-color: lightgray;
+}
+
+.cabecalho_botao {
+    height: 38px;
+    padding: 0 3px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #312D33;
+    color: lightgrey;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #312D33;
+}
+
+.conteudo_subtitulo {
+    font-size: 60px;
+    font-weight: 400;
+    color: lightgrey;
+}
+
+.rodape {
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #8f32c2;
+    color: black;
+    font-weight: 600;
+}
+
+/* Responsividade para celulares */
+@media (max-width: 480px) {
+    .cabecalho_titulo {
+        font-size: 1.8rem;
+        letter-spacing: 0.1;
+    }
+
+    .cabecalho_pesquisa {
+        width: 17rem;
+    }
+
+    .cabecalho_botao {
+        padding: 0 1rem;
+        font-size: 0.9rem;
+    }
+
+    .rodape {
+        font-size: 0.9rem;
+    }
+}
