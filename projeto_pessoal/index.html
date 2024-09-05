@@ -12,48 +12,17 @@
             <h1 class="cabecalho_titulo">Bandeiras do mundo</h1>
             <nav>
                 <input class="cabecalho_pesquisa" type="text" placeholder="Digite um local">
-                <button class="cabecalho_botao">Pesquisar</button>
+                <button class="cabecalho_botao" onclick="pesquisar()">Pesquisar</button>
             </nav>
         </header>
 
         <!--PRINCIPAL-->
         <main class="conteudo">
             <h2 class="conteudo_subtitulo">Descubra bandeiras incríveis</h2>
+            <section class="conteudo_exemplos" id="conteudo_exemplos">
+            </section>
 
-            <section class="conteudo_exemplos">
-                <div class="conteudo_exemplos_exemplo">
-                    <div>
-                        <img class="conteudo_exemplos_exemplo_imagem" src="./assets/brazil.png" alt="Bandeira_do_Brasil">
-                    </div>
-                    <div class="conteudo_exemplos_exemplo_info">
-                        <h3 class="conteudo_exemplos_exemplo_titulo">BRASIL</h3>
-                        <p class="conteudo_exemplos_exemplo_descricao">A <strong>bandeira do Brasil</strong> é uma das poucas bandeiras nacionais que possuem um lema escrito. Além disso, a disposição das estrelas é única e representa um momento histórico específico.</p>
-                        <a class="conteudo_exemplos_exemplo_descricao" href="https://pt.wikipedia.org/wiki/Bandeira_do_Brasil" target="_blank">Saiba mais.</a>
-                    </div>
-                    
-                </div>
-
-                <div class="conteudo_exemplos_exemplo">
-                    <div>
-                        <img class="conteudo_exemplos_exemplo_imagem" src="./assets/japao.jpg" alt="Bandeira_do_Japao">
-                    </div>
-                    <div class="conteudo_exemplos_exemplo_info">
-                        <h3 class="conteudo_exemplos_exemplo_titulo">JAPÃO</h3>
-                        <p class="conteudo_exemplos_exemplo_descricao">A <strong>bandeira do Japão</strong> é conhecida oficialmente como Nisshōki, mas popularmente como Hinomaru, ela apresenta um design minimalista e carregado de simbolismo.</p>
-                        <a class="conteudo_exemplos_exemplo_descricao" href="https://pt.wikipedia.org/wiki/Bandeira_do_Jap%C3%A3o" target="_blank">Saiba mais.</a>
-                    </div>
-                </div>
-
-                <div class="conteudo_exemplos_exemplo">
-                    <div>
-                        <img class="conteudo_exemplos_exemplo_imagem" src="./assets/canada.png" alt="Bandeira_do_Canada">
-                    </div>
-                    <div class="conteudo_exemplos_exemplo_info">
-                        <h3 class="conteudo_exemplos_exemplo_titulo">CANADÁ</h3>
-                        <p class="conteudo_exemplos_exemplo_descricao">Na <strong>bandeira do Canadá</strong> ,as onze pontas da folha de bordo não têm um significado específico, mas foram escolhidas para criar um design esteticamente agradável, no qual, o msm foi escolhido por um comitê especial, após a realização de um concurso nacional.<p>
-                        <a class="conteudo_exemplos_exemplo_descricao" href="https://pt.wikipedia.org/wiki/Bandeira_do_Canad%C3%A1" target="_blank">Saiba mais.</a>
-                    </div>
-                </div>
+            <section class="conteudo_pesquisa" id="conteudo_pesquisa">
             </section>
         </main>
 
