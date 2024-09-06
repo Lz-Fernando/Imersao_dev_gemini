@@ -11,9 +11,9 @@ let dados = [
     {
         id : 2,
         nome : 'JAPÃO',
-        imagem : './assets/japao.jpg',
+        imagem : './assets/japao.png',
         curiosidade : 'A <strong>bandeira do Japão</strong> é conhecida oficialmente como Nisshōki, mas popularmente como Hinomaru, ela apresenta um design minimalista e carregado de simbolismo.',
-        continente : 'Asia',
+        continente : 'Ásia',
         link : 'https://pt.wikipedia.org/wiki/Bandeira_do_Jap%C3%A3o'
     },
     {

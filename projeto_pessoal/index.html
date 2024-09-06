@@ -4,21 +4,19 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        <title>Bandeiras do mundo</title>
+        <title>Bandeiras</title>
     </head>
+
     <body>
-        <!--CABEÇALHO-->
-        <header class="cabecalho">
-            <h1 class="cabecalho_titulo">Bandeiras do mundo</h1>
-            <nav>
-                <input class="cabecalho_pesquisa" type="text" placeholder="Digite um local">
-                <button class="cabecalho_botao" onclick="pesquisar()">Pesquisar</button>
-            </nav>
-        </header>
 
         <!--PRINCIPAL-->
         <main class="conteudo">
-            <h2 class="conteudo_subtitulo">Descubra bandeiras incríveis</h2>
+            <section class="conteudo_apresentacao">
+                <h1 class="conteudo_apresentacao_titulo">DESCUBRA <strong>BANDEIRAS</strong> INCRÍVEIS</h1>
+                <input class="cabecalho_apresentacao_pesquisa" type="text" placeholder="Digite um local" id="campo_pesquisa">
+                <button class="cabecalho_apresentacao_botao" onclick="pesquisar()">Pesquisar</button>
+            </section>
+            
             <section class="conteudo_exemplos" id="conteudo_exemplos">
             </section>
 
